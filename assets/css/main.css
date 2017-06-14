@@ -78,6 +78,32 @@
 	color: grey;
 }
 
+/*--------------------------------- PORTFOLIO --------------------------------------------*/
+.portfolio{
+	background: rgb(228, 227, 227);
+}
+
+.container.portfolio{
+	padding: 7%;
+}
+
+.row.portfolio{
+	padding: 0;
+}
+
+.types-portfolio{
+	background: white;
+	box-sizing: border-box;
+	margin: 4% 0;
+}
+
+.titles-portfolio{
+	margin: 1% 0 7% 0;
+}
+
+.text-types{
+	padding: 5%;
+}
 
 
 
