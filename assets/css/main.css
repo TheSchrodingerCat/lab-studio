@@ -9,7 +9,7 @@
 
 #start-bootstrap{
 	font-size: 20px;
-	color: rgb(250, 174, 39);
+	color: #E5CE0B;
 }
 
 /*---------------------------- HEADER -------------------------------------------*/
@@ -37,11 +37,47 @@
 }
 
 .btn-tell-me-more{
-	background: rgb(250, 174, 39);
-	border: 1px solid rgb(250, 174, 39);
+	background: #F7F005;
+	border: 1px solid #F7F005;
 	color: white;
 	font-size: 16px;
 	padding: 1.5% 2.8%;
 	font-weight: bolder;
 	margin-top: 3%;
 }
+
+/*------------------------------------------- SERVICES ------------------------------------------*/
+.services{
+	padding: 3%;
+}
+
+.titles-services{
+	padding: 6%;
+}
+
+.btn-icon{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background: #F7F005;
+	border: 1px solid #F7F005;
+	margin-top: 2%;
+}
+
+.fa.services{
+	color: white;
+	font-size: 50px;
+}
+
+.services-title{
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
+
+.gris{
+	color: grey;
+}
+
+
+
+
