@@ -12,6 +12,10 @@
 	color: #E5CE0B;
 }
 
+.navegation .container-fluid .row .container .col-lg-12 .navbar .navbar-collapse ul li a{
+	color: white;
+}
+
 /*---------------------------- HEADER -------------------------------------------*/
 .navegation{
 	background: url(../../img/header-bg.jpg);
@@ -78,6 +82,7 @@
 	color: grey;
 }
 
+
 /*--------------------------------- PORTFOLIO --------------------------------------------*/
 .portfolio{
 	background: rgb(228, 227, 227);
@@ -106,4 +111,23 @@
 }
 
 
+/*------------------------------------ ABOUT ---------------------------------------------*/
+.container.about{
+	padding: 7%;
+}
 
+.sub{
+	margin: 7% 0;
+}
+
+.foto-about, .yellow-circle{
+	border: 5px solid rgb(228, 227, 227);
+}
+
+.yellow-circle{
+	background: #F7F005;
+	width: 100%;
+	height: 130px;
+	border-radius: 50%;
+	padding: 20%;
+}
