@@ -10,6 +10,22 @@ body{
 	max-width: 100%;
 }
 
+.fontStyleOne{
+	font-family: 'Kaushan Script', cursive;
+}
+
+.fontStyleTwo{
+	font-family: 'Roboto Slab', serif;
+}
+
 .cursiva{
-	font-family: 'Bilbo Swash Caps', cursive;
+	font-style: italic;
+}
+
+.blanco{
+	color: white;
+}
+
+.negritas{
+	font-weight: bold;
 }
