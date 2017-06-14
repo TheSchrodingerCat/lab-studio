@@ -1,0 +1,13 @@
+
+/*----------------------------- nav-bar ----------------------------------------*/
+.navbar-default{
+	background: transparent;
+	border: transparent;
+	font-weight: bold;
+	padding: 2%;
+}
+
+#start-bootstrap{
+	font-size: 30px;
+	color: rgb(250, 174, 39);
+}
