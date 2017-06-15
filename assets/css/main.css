@@ -131,3 +131,58 @@
 	border-radius: 50%;
 	padding: 20%;
 }
+
+/*------------------------------------ TEAM -----------------------------------------------*/
+.container.team{
+	padding: 9%;
+}
+
+.myTeam{
+	background: rgb(228, 227, 227);
+}
+
+.photo-team{
+	margin: 6% auto;
+	border: 5px solid white;
+}
+
+.icons-network{
+	width: 37px;
+	height: 37px;
+	margin: 1%;
+	border-radius: 50%;
+	background: black;
+	border: 1px solid white;
+}
+
+.fa.network{
+	font-size: 17px;
+}
+
+.team.gris{
+	margin: 5% 0;
+}
+
+/* logos*/
+.container.logos{
+	padding: 9%;
+}
+
+.mi-logo{
+	margin: 0;
+}
+
+.logo{
+	margin: 4% auto;
+}
+
+/*---------------------------------- CONTACT -------------------------------------------------*/
+.contacto{
+	background: url(../../img/map-image.png);
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
