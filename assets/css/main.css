@@ -177,12 +177,31 @@
 }
 
 /*---------------------------------- CONTACT -------------------------------------------------*/
+.container.contacto{
+	padding: 9%;
+}
+
 .contacto{
 	background: url(../../img/map-image.png);
 	background-color: black;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.titles-contact{
+	margin-bottom: 7%;
+}
+
+.data{
+	padding: 6.45% 2%;
+}
+
+.sendMessage{
+	background: #F7F005;
+	border: 1px solid #F7F005;
+	margin: 3% 0;
+	padding: 2% 5%;
 }
 
 

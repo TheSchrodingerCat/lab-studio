@@ -396,7 +396,7 @@
 
 	<!-- contacto -->
 	<section class="contacto" id="contacto">
-		<div class="container">
+		<div class="container contacto">
 			<div class="row">
 				<div class="titles-contact text-center">
 					<h1 class="negritas blanco">CONTACT US</h1>
@@ -405,21 +405,46 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<input type="text" placeholder="YOUR NAME">
-					<input type="text" placeholder="YOUR EMAIL">
-					<input type="text" placeholder="YOUR PHONE">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control data" placeholder="YOUR NAME">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control data" placeholder="YOUR EMAIL">
+						</div>
+						<div class="form-group">
+							<input type="phone" class="form-control data" placeholder="YOUR PHONE">
+						</div>
+					</form>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<textarea name="area-texto" id="asunto" cols="30" rows="10"></textarea>
+					<textarea name="area-texto" class="form-control" id="asunto" rows="10" placeholder="YOUR MESSAGE"></textarea>
 				</div>
 			</div>
 			<div class="row">
-				
+				<div class="text-center">
+					<button class="sendMessage btn btn-default blanco negritas" id="send-message">SEND MESSAGE</button>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<p>Copyright &copy Your Website</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+				</div>
+			</div>
+		</div>
+	</footer>
 	
 </body>
 </html>
