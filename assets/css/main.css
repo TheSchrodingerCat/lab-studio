@@ -12,8 +12,14 @@
 	color: #E5CE0B;
 }
 
-.navegation .container-fluid .row .container .col-lg-12 .navbar .navbar-collapse ul li a{
+.navegation .container-fluid .navbar  .row .container .col-lg-12 .navbar-collapse ul li a{
 	color: white;
+}
+
+.menuBoton{
+	background: #E5CE0B;
+	border: transparent;
+	padding: 2%;
 }
 
 /*---------------------------- HEADER -------------------------------------------*/
@@ -99,7 +105,7 @@
 .types-portfolio{
 	background: white;
 	box-sizing: border-box;
-	margin: 4% 0;
+	margin: 4% auto;
 }
 
 .titles-portfolio{
@@ -211,6 +217,12 @@
 
 .foot.yellow{
 	color: #E5CE0B;
+}
+
+/*------------------------------------------------------------------*/
+
+.fa:hover{
+	color: #F7F005;
 }
 
 
